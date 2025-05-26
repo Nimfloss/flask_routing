@@ -39,7 +39,7 @@ The following libraries and tools are used in this project:
  - passlib -> For password encryption and security
  - email_validator -> For validating email addresses
  - Flask -> For web application routing and server logic
- - functools-> Used for decorators (@wraps) in session management
+ - functools
 
  - Note : Publishing can be done using Apache.
 
