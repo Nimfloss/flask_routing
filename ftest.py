@@ -190,7 +190,6 @@ def passch():
         info = cursor.fetchone()
         fatched_password = info["password"]
         if sha256_crypt.verify(oldpassw,fatched_password):
-            #Verified old password
             if newpassw == newpassconw:
                 n_hash_pass = sha256_crypt.encrypt(newpassw)
                 update_f = "UPDATE users SET password = %s WHERE username = %s"
