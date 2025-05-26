@@ -23,7 +23,7 @@ Bu sizin MySQL yapılandırmanıza göre hata verebilir de vermeyebilir de eğer
 Not : Makaleler /makale olarak direkt görüntülenebilir. Bunu güvenlik açığı olarak düşünebilirsiniz. Üstünde değiştirme yapılabilir.
 
 Python'da gerekli libleri şu kodu kullanarak direkt kurabilirsiniz:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 Bu kod requirements.txt içindeki libleri direkt olarak venv veya environment Python'unuza yükler.
 Kontrol edebilirsiniz.
 
@@ -54,6 +54,6 @@ This may or may not give an error depending on your MySQL configuration. If you 
 Note : Articles can be displayed directly as /article. You can consider this as a security vulnerability. Changes can be made on it.
 
 You can install the necessary libs for Python directly using this code:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 This code loads the libs in requirements.txt directly into your venv or environment Python.
 You can check it if you want.
