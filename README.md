@@ -1,4 +1,4 @@
-#TR
+# TR
 Bu dosya Flask ve Python ile oluşturulmuş bir backend internet sitesi routing dosyasıdır.
 Bu dosya şu kütüphaneleri veya uygulamaları kullanır :
 
@@ -27,7 +27,9 @@ pip install -r requirements.txt
 Bu kod requirements.txt içindeki libleri direkt olarak venv veya environment Python'unuza yükler.
 Kontrol edebilirsiniz.
 
-#EN
+
+
+# EN
 This file is a backend website routing script developed using Flask and Python.
 The following libraries and tools are used in this project:
 
