@@ -2,7 +2,7 @@
 Bu klasör boştur.
 Buraya template dosyalarınızı bırakabilirsiniz.
 
---Du
+--De
 Dieser Ordner ist leer.
 Sie können hier Ihre Vorlagendateien ablegen.
 
