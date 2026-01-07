@@ -17,7 +17,9 @@ Not : Uygulama debug=true olarak başlatılıyor 262. ve 263. satırlar.
 Not : /template klasörü tamamen boştur ve içinde herhangi bir .html dosyası bulunmamaktadır.
 Routing ile ilişkilendirilmiş dosyaları kendiniz oluşturup kullanabilirsiniz veya uzantıları değiştirebilirsiniz.
 
-Uyarı : 108. Satırda insert komutunda name,email,username değerleri alınırken password değeri alınmamaktadır.
+Önemli Uyarı! : KESİNLİKLE app.secret_key'i değiştirmeyi UNUTMAYIN! Şuanlık projeyi rafa kaldırdığım için placeholder ATMIYORUM.
+
+Uyarı : insert komutunda name,email,username değerleri alınırken password değeri alınmamaktadır.
 Bu sizin MySQL yapılandırmanıza göre hata verebilir de vermeyebilir de eğer MySQL hatası alırsanız bu satırı incelemeniz gerekebilir!
 
 Not : Makaleler /makale olarak direkt görüntülenebilir. Bunu güvenlik açığı olarak düşünebilirsiniz. Üstünde değiştirme yapılabilir.
@@ -27,6 +29,17 @@ Python'da gerekli libleri şu kodu kullanarak direkt kurabilirsiniz:
 Bu kod requirements.txt içindeki libleri direkt olarak venv veya environment Python'unuza yükler.
 Kontrol edebilirsiniz.
 
+## ⚠️ GÜVENLİK UYARISI
+
+Bu proje sadece öğrenme/demo amaçlıdır.
+
+**Önemli**: Varsayılan `app.secret_key` değerini deneme ortamında bile kullanmayın!
+Her zaman kendi gizli anahtarınızı oluşturun veya ortam değişkenlerinden (environment variables) yükleyin.
+
+```python
+import os
+app.secret_key = os.getenv("SECRET_KEY", "dev-key")
+```
 
 
 # EN
@@ -57,3 +70,15 @@ You can install the necessary libs for Python directly using this code:
 `pip install -r requirements.txt`
 This code loads the libs in requirements.txt directly into your venv or environment Python.
 You can check it if you want.
+
+## ⚠️ Security Notice
+
+This project is for **learning/demo purposes only**.  
+
+**Important:** Do NOT use the default `app.secret_key` in production!  
+Always replace it with your own secret key or load it from environment variables:
+
+```python
+import os
+app.secret_key = os.getenv("SECRET_KEY", "dev-key")
+```
