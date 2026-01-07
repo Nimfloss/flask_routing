@@ -12,14 +12,12 @@ Bu dosya şu kütüphaneleri veya uygulamaları kullanır :
 
  - Not : Apache kullanarak yayınlama işlemi yapılabilir.
 
-Not : Uygulama debug=true olarak başlatılıyor 262. ve 263. satırlar.
+Not : Uygulama debug=true olarak başlatılıyor 265. ve 266. satırlar.
 
 Not : /template klasörü tamamen boştur ve içinde herhangi bir .html dosyası bulunmamaktadır.
 Routing ile ilişkilendirilmiş dosyaları kendiniz oluşturup kullanabilirsiniz veya uzantıları değiştirebilirsiniz.
 
-Önemli Uyarı! : KESİNLİKLE app.secret_key'i değiştirmeyi UNUTMAYIN! Şuanlık projeyi rafa kaldırdığım için placeholder ATMIYORUM.
-
-Uyarı : insert komutunda name,email,username değerleri alınırken password değeri alınmamaktadır.
+Uyarı :111. satırdaki insert komutunda name,email,username değerleri alınırken password değeri alınmamaktadır.
 Bu sizin MySQL yapılandırmanıza göre hata verebilir de vermeyebilir de eğer MySQL hatası alırsanız bu satırı incelemeniz gerekebilir!
 
 Not : Makaleler /makale olarak direkt görüntülenebilir. Bunu güvenlik açığı olarak düşünebilirsiniz. Üstünde değiştirme yapılabilir.
@@ -56,12 +54,12 @@ The following libraries and tools are used in this project:
 
  - Note : Publishing can be done using Apache.
 
-Note : The application is started with debug=true lines 262 and 263.
+Note : The application is started with debug=true lines 265 and 266.
 
 Note : The /template folder is completely empty and does not contain any .html files.
 You can create and use the files associated with Routing yourself or change the extensions.
 
-Warning : In line 108, the insert command takes name, email, username values but not password value.
+Warning : In line 111, the insert command takes name, email, username values but not password value.
 This may or may not give an error depending on your MySQL configuration. If you get a MySQL error, you may need to examine this line!
 
 Note : Articles can be displayed directly as /article. You can consider this as a security vulnerability. Changes can be made on it.
