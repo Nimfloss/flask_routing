@@ -9,7 +9,7 @@ app = Flask(__name__)
 # WARNING:
 # This secret key is for template/demo purposes only.
 # Do NOT use this in production.
-app.secret_key = "justforfun"
+app.secret_key = "CHANGE_THIS"
 
 import pymysql
 
