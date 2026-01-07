@@ -6,6 +6,9 @@ from passlib.hash import sha256_crypt
 import email_validator
 
 app = Flask(__name__)
+# WARNING:
+# This secret key is for template/demo purposes only.
+# Do NOT use this in production.
 app.secret_key = "justforfun"
 
 import pymysql
